@@ -22,7 +22,8 @@ namespace pryGrabarFirma
             puntosDaño = 1;
             imgNave = new PictureBox();
             imgNave.SizeMode = PictureBoxSizeMode.Zoom;
-            imgNave.ImageLocation = "https://www.pngkit.com/png/full/113-1136230_hello-mortals-alphamans-galaga.png";
+            imgNave.BackColor = Color.Transparent;
+            imgNave.ImageLocation = "https://www.pngall.com/wp-content/uploads/13/Space-Invaders-Ship-PNG-Photo.png";
 
         }
 

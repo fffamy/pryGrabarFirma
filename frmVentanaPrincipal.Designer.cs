@@ -56,26 +56,26 @@
             // grabarFirmaToolStripMenuItem
             // 
             grabarFirmaToolStripMenuItem.Name = "grabarFirmaToolStripMenuItem";
-            grabarFirmaToolStripMenuItem.Size = new Size(180, 22);
+            grabarFirmaToolStripMenuItem.Size = new Size(142, 22);
             grabarFirmaToolStripMenuItem.Text = "Grabar Firma";
             grabarFirmaToolStripMenuItem.Click += grabarFirmaToolStripMenuItem_Click;
             // 
             // galagaToolStripMenuItem
             // 
             galagaToolStripMenuItem.Name = "galagaToolStripMenuItem";
-            galagaToolStripMenuItem.Size = new Size(180, 22);
+            galagaToolStripMenuItem.Size = new Size(142, 22);
             galagaToolStripMenuItem.Text = "Galaga";
             galagaToolStripMenuItem.Click += galagaToolStripMenuItem_Click;
             // 
             // toolStripMenuItem1
             // 
             toolStripMenuItem1.Name = "toolStripMenuItem1";
-            toolStripMenuItem1.Size = new Size(177, 6);
+            toolStripMenuItem1.Size = new Size(139, 6);
             // 
             // salirToolStripMenuItem
             // 
             salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            salirToolStripMenuItem.Size = new Size(180, 22);
+            salirToolStripMenuItem.Size = new Size(142, 22);
             salirToolStripMenuItem.Text = "Salir";
             salirToolStripMenuItem.Click += salirToolStripMenuItem_Click;
             // 
@@ -84,6 +84,8 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
+            BackgroundImage = Properties.Resources.wallpapersden_com_abstract_shapes_2021_minimalist_1921x1081;
+            BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(800, 450);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;

@@ -28,18 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGalaga));
             SuspendLayout();
             // 
             // frmGalaga
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(780, 757);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "frmGalaga";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "frmGalaga";
             Load += frmGalaga_Load;
+            KeyDown += frmGalaga_KeyDown;
             ResumeLayout(false);
         }
 
