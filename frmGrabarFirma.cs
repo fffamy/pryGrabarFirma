@@ -1,8 +1,8 @@
 namespace pryGrabarFirma
 {
-    public partial class Form1 : Form
+    public partial class frmGrabarFirma : Form
     {
-        public Form1()
+        public frmGrabarFirma()
         {
             InitializeComponent();
             // Inicializa el Bitmap para la firma

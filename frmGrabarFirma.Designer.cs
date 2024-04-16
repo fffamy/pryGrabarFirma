@@ -1,6 +1,6 @@
 ﻿namespace pryGrabarFirma
 {
-    partial class Form1
+    partial class frmGrabarFirma
     {
         /// <summary>
         ///  Required designer variable.
