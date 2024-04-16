@@ -52,6 +52,7 @@
             pbFirma2.Location = new Point(599, 68);
             pbFirma2.Name = "pbFirma2";
             pbFirma2.Size = new Size(360, 326);
+            pbFirma2.SizeMode = PictureBoxSizeMode.AutoSize;
             pbFirma2.TabIndex = 1;
             pbFirma2.TabStop = false;
             pbFirma2.MouseDown += pbFirma2_MouseDown;
@@ -76,6 +77,7 @@
             btnGrabarFirma.TabIndex = 3;
             btnGrabarFirma.Text = "Grabar";
             btnGrabarFirma.UseVisualStyleBackColor = true;
+            btnGrabarFirma.Click += btnGrabarFirma_Click;
             // 
             // btnBorrar
             // 
@@ -91,7 +93,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveCaptionText;
+            BackColor = SystemColors.Control;
             ClientSize = new Size(1058, 556);
             Controls.Add(btnBorrar);
             Controls.Add(btnGrabarFirma);
@@ -101,9 +103,11 @@
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Grabar Firma";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pbFirma).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbFirma2).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
